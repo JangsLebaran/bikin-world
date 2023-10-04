@@ -6,38 +6,29 @@
     <title>Create World|Door File</title>
     <style>
       body {
-        background-image: url("https://media.discordapp.net/attachments/1068072767955685446/1147673792651464886/Jangs.jpg?width=327&height=327");
-        background-size: 30%;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-color: black;
-        color: white;
-        background-position: center center;
-      }
-
-      /* Tambahkan animasi kedip dengan warna pink */
-      @keyframes blink {
-        0% {
-          opacity: 1;
-          color: pink; /* Warna saat 0% */
-        }
-        50% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-          color: pink; /* Warna saat 100% */
-        }
-      }
-
-      button:hover {
-        animation: blink 1s infinite; /* Jalankan animasi saat tombol dihover */
-      }
-
-      /* Ganti warna outline textarea menjadi pink saat di-focus */
-      textarea:focus {
-        outline: 2px solid pink;
-      }
+  background-image: url("https://media.discordapp.net/attachments/1068072767955685446/1147673792651464886/Jangs.jpg?width=327&height=327"); /* Ganti dengan URL gambar latar belakang Anda */
+  background-size: 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  background-position: center center;
+}
+button {
+  background-color: #ff00ee;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #2980b9;
+}
+textarea {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
     </style>
   </head>
   <body>
